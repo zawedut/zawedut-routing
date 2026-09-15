@@ -1,0 +1,45 @@
+{
+  "name": "zawedut-routing",
+  "version": "0.1.0",
+  "description": "Unified TypeScript SDK for comparing LLM providers, usage, latency, and cost",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "llm",
+    "ai",
+    "typescript",
+    "gemini",
+    "openai",
+    "anthropic",
+    "typhoon",
+    "model-routing",
+    "llm-observability"
+  ],
+  "author": "Kittipoom",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/json-schema": "^7.0.15",
+    "@types/node": "^26.5.1",
+    "dotenv": "^17.4.2",
+    "prettier": "3.9.6",
+    "typescript": "^7.0.2"
+  },
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "@ai-sdk/anthropic": "^4.0.53",
+    "@ai-sdk/google": "^4.0.69",
+    "@ai-sdk/openai": "^4.0.66",
+    "@ai-sdk/openai-compatible": "^3.0.48",
+    "ai": "^7.0.99"
+  },
+  "files": [
+    "dist"
+  ]
+}
