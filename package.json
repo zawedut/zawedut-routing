@@ -1,6 +1,6 @@
 {
   "name": "zawedut-routing",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Unified TypeScript SDK for comparing LLM providers, usage, latency, and cost",
   "main": "./dist/index.js",
   "scripts": {
