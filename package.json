@@ -41,5 +41,13 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zawedut/zawedut-routing.git"
+  },
+  "homepage": "https://github.com/zawedut/zawedut-routing#readme",
+  "bugs": {
+    "url": "https://github.com/zawedut/zawedut-routing/issues"
+  }
 }
